@@ -31,6 +31,4 @@ For the HTML format of the R code, visit https://rawgit.com/yinniyu/kaggle_taxi/
 
 
 
-
-
-Note: for the python jupyter notebook it's best to view it on NBviewer using Firefox browser because it renders the interactive maps. 
+Note: for the python jupyter notebook it's best to view it on NBviewer using Firefox browser for rendering the Folium interactive maps. 
