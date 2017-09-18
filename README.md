@@ -18,8 +18,15 @@ The <i>Lubridate</i> library in R was helpful in extracting elements from the ti
 
 A more detailed heatmap was generated using ggplot's geom_tile() function. This one shows a better visual of the data array relating pickup hours with pickup date by the month.
 
-<p align=center><img src ="Heatmap1.png" width=80%, height=80%>
+<p align=center><img src ="heatmap.png" width=110%, height=110%>
   <br><b>Figure 2</b>. Temporal heatmap for number of pickups.</p>
+ 
+Due to the size of the samples (~1M) and memory constraints in mapping visuals, data with duration > 1200 seconds were selected for ggmap rendering. There's multiple tile style to choose from within get_map(), I personally like stamen's toner-lite. After some data groupings and formatting, a contour plot was generated displaying both pickup and dropoff points on the map.
+
+<p align=center><img src ="contour.png" width=100%, height=100%>
+  <br><b>Figure 3</b>. Contour overlay plot.</p>
+ 
+ 
 
 
 
