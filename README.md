@@ -16,7 +16,7 @@ The <i>Lubridate</i> library in R was helpful in extracting elements from the ti
 <p align=center><img src ="pickup_plots.png" width=80%, height=80%>
   <br><b>Figure 1</b>. Plot of pickups throughout the hours and heatmap for weekday pickup patterns.</p>
 
-A more detailed heatmap was generated using ggplot's geom_tile() function. This one shows a better visual of the data array relating pickup hours with pickup date by the month.
+A more detailed heatmap was generated using ggplot's geom_tile() function. This one shows a better visual of the data array relating pickup hours with pickup date by the month.You can clearly see that number of pickups in the afternoons increased progressively during the summer months, no surprise there.
 
 <p align=center><img src ="heatmap.png" width=110%, height=110%>
   <br><b>Figure 2</b>. Temporal heatmap for number of pickups.</p>
