@@ -25,13 +25,12 @@ Due to the size of the samples (~1M) and memory constraints in mapping visuals, 
 
 <p align=center><img src ="contour.png" width=100%, height=100%>
   <br><b>Figure 3</b>. Contour overlay plot.</p>
+  
+For the HTML format of the R code, visit https://rawgit.com/yinniyu/kaggle_taxi/master/taxi_data_visual.html
  
- 
 
 
 
 
 
-
-
-Note: for the python jupyter notebook (taxi_1.ipynb) it's best to view it on NBviewer because it renders the interactive maps. 
+Note: for the python jupyter notebook it's best to view it on NBviewer using Firefox browser because it renders the interactive maps. 
