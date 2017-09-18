@@ -11,4 +11,4 @@ R libraries (ggmap, ggplot) and Python's Folium package are used to visualize th
 
 
 
-Note: for the python jupyter notebook (taxi_1.ipynb) it's best to view it on NBviewer because it renders the interactive maps. https://nbviewer.jupyter.org/github/yinniyu/kaggle_taxi/blob/master/taxi_1.ipynb
+Note: for the python jupyter notebook (taxi_1.ipynb) it's best to view it on NBviewer because it renders the interactive maps. 
