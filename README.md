@@ -1,6 +1,8 @@
 # Data visualization of taxi rides (R and Python)
 
-R libraries (ggmap, ggplot) and Python's Folium package are used to visualize the taxi data set from Kaggle(https://www.kaggle.com/c/nyc-taxi-trip-duration). The goal is to explore and compare the different mapping features within R and Python.
+R libraries (ggmap, ggplot) and Python's Folium package are used to visualize the taxi data set from Kaggle(https://www.kaggle.com/c/nyc-taxi-trip-duration). The goal is to explore and compare the different mapping features within R and Python. The main difference between R's library and Python's Folium is that Folium is more interactive (i.e., customized popup on the map). However it takes longer to plot and load the map than R's ggmap due to high memory requirement. The ggmap library, on the other hand, seems to have more options for color schemes and other visualization features that are easy to use. 
+
+NOTE: For the HTML report of the R code, visit https://rawgit.com/yinniyu/kaggle_taxi/master/taxi_data_visual.html. For the jupyter notebook file it's best to view it on NBviewer using Firefox to render the Folium interactive maps. http://nbviewer.jupyter.org/github/yinniyu/kaggle_taxi/blob/master/Python_taxi_map.ipynb
 
 ### R visualization 
  
@@ -26,9 +28,5 @@ Due to the size of the samples (~1M) and memory constraints in mapping visuals, 
 <p align=center><img src ="contour.png" width=100%, height=100%>
   <br><b>Figure 3</b>. Contour overlay plot.</p>
   
-For the HTML format of the R code, visit https://rawgit.com/yinniyu/kaggle_taxi/master/taxi_data_visual.html
- 
 
 
-
-Note: for the python jupyter notebook it's best to view it on NBviewer using Firefox browser for rendering the Folium interactive maps. 
