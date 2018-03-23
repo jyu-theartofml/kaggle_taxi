@@ -4,6 +4,8 @@ R libraries (ggmap, ggplot) and Python's Folium package are used to visualize th
 
 NOTE: For the HTML report of the R code, visit https://rawgit.com/yinniyu/kaggle_taxi/master/taxi_data_visual.html. For the jupyter notebook file it's best to view it on NBviewer using Firefox to render the Folium interactive maps. http://nbviewer.jupyter.org/github/yinniyu/kaggle_taxi/blob/master/Python_taxi_map.ipynb
 
+<p align='center><img src='geomapping_visual/Screenshot-2018-3-23 Chord to show Flows.png'></p>
+
 ### R visualization 
  
 The dataset is relatively small in terms of number of features. Here's a glimps of the data:
