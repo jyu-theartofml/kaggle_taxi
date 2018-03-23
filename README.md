@@ -1,8 +1,7 @@
 # Data visualization of taxi rides (R and Python)
 
-<html>
  <iframe src="http://bl.ocks.org/AndrewRP/raw/7468330/" marginwidth="0" marginheight="0" scrolling="no"></iframe>
-</html>
+
 
 R libraries (ggmap, ggplot) and Python's Folium package are used to visualize the <a href= 'https://www.kaggle.com/c/nyc-taxi-trip-duration'>taxi data set</a> from Kaggle. The goal is to explore and compare the different mapping features within R and Python. The main difference between R's library and Python's Folium is that Folium's inline plot is more interactive (i.e., customized popup, zoom), whereas interactivity within R environment is best delivered via Shiny. However it takes longer for Folium to plot and load the map than R's ggmap due to high memory requirement. The ggmap library, on the other hand, seems to have more options for color schemes and other visualization features that are easy to use. 
 
